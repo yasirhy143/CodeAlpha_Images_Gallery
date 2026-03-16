@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Professional Image Gallery</h1>
+<p>Modern Responsive Gallery with Lightbox</p>
+</header>
+
+<div class="filters">
+<button onclick="filterImages('all')">All</button>
+<button onclick="filterImages('nature')">Nature</button>
+<button onclick="filterImages('city')">City</button>
+<button onclick="filterImages('animals')">Animals</button>
+</div>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/id/1015/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1016/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1018/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1019/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1020/600/400" class="gallery-item nature">
+
+<img src="https://picsum.photos/id/1031/600/400" class="gallery-item city">
+<img src="https://picsum.photos/id/1033/600/400" class="gallery-item city">
+<img src="https://picsum.photos/id/1035/600/400" class="gallery-item city">
+<img src="https://picsum.photos/id/1037/600/400" class="gallery-item city">
+<img src="https://picsum.photos/id/1040/600/400" class="gallery-item city">
+
+<img src="https://picsum.photos/id/237/600/400" class="gallery-item animals">
+<img src="https://picsum.photos/id/433/600/400" class="gallery-item animals">
+<img src="https://picsum.photos/id/593/600/400" class="gallery-item animals">
+<img src="https://picsum.photos/id/659/600/400" class="gallery-item animals">
+<img src="https://picsum.photos/id/718/600/400" class="gallery-item animals">
+
+<img src="https://picsum.photos/id/1050/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1060/600/400" class="gallery-item city">
+<img src="https://picsum.photos/id/1070/600/400" class="gallery-item nature">
+<img src="https://picsum.photos/id/1080/600/400" class="gallery-item animals">
+<img src="https://picsum.photos/id/1090/600/400" class="gallery-item city">
+
+</div>
+
+<div id="lightbox">
+
+<span class="close">&times;</span>
+
+<button class="prev">&#10094;</button>
+
+<img id="lightbox-img">
+
+<button class="next">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
